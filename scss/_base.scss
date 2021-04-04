@@ -1,0 +1,78 @@
+@import url('https://fonts.google.com/specimen/Raleway');
+@import url('https://fonts.google.com/specimen/Open+Sans');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+// Colors
+// Primary
+$Dark-Blue-intro-and-email-sign-up-background: hsl(217, 28%, 15%);
+$Dark-Blue-main-background: hsl(218, 28%, 13%);
+$Dark-Blue-footer-background: hsl(216, 53%, 9%);
+$Dark-Blue-testimonials-background: hsl(219, 30%, 18%);
+ 
+// accent
+$Cyan-inside-call-to-action-gradient: hsl(176, 68%, 64%);
+$Blue-inside-call-to-action-gradient: hsl(198, 60%, 50%);
+$Light-Red-error: hsl(0, 100%, 63%);
+
+// font-size
+$f-s-para: 0.875rem; 
+$f-s-head:clamp(1.5rem, 1vw + 1.3rem, 2.2rem);
+// font-weight
+$f-w-400:400;
+$f-w-700:700;
+
+// font-family
+$font-famliy-raleway:'Raleway',sans-serif;
+$font-famliy-open-sans: 'Open Sans',sans-serif;
+
+body{
+     margin: 0;
+    font-family: $font-famliy-open-sans;
+    background-color: $Dark-Blue-main-background;
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+    background-image: url(../images/bg-curvy-mobile.svg);
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+li{
+  
+  list-style: none;
+  :hover{
+    filter: brightness(150%);
+    text-decoration: underline;
+  }
+}
+
+.btn-1,.btn-2{
+  background-image:linear-gradient(to right, $Cyan-inside-call-to-action-gradient , $Blue-inside-call-to-action-gradient);
+    
+  padding: 1rem 5.5em;
+  border-radius: 2rem;
+  font-weight: $f-w-700;
+  &:hover{
+    filter: brightness(150%);
+  }
+}
+
+.btn-2{
+  padding: 1rem 2rem;
+
+}
+
+
