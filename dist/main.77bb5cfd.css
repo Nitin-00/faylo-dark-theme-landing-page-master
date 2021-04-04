@@ -184,7 +184,7 @@ nav ul {
   padding-bottom: 0.375rem;
 }
 .how-fylo-works::after {
-  content: url(/icon-arrow.56d7c493.svg);
+  content: url(../images/icon-arrow.56d7c493.svg);
   margin-left: 0.4rem;
   vertical-align: text-top;
 }
@@ -337,7 +337,7 @@ footer {
   margin-bottom: 1rem;
 }
 .contact-details .address::before {
-  content: url(/icon-location.fa295aa5.svg);
+  content: url(../images/icon-location.fa295aa5.svg);
   float: left;
   margin-top: 0.2rem;
 }
@@ -349,11 +349,11 @@ footer {
   margin-bottom: 1rem;
 }
 .phone-email .phone-no::before {
-  content: url(/icon-phone.cc84a2ca.svg);
+  content: url(../images/icon-phone.cc84a2ca.svg);
   margin-right: 0.8rem;
 }
 .phone-email .email::before {
-  content: url(/icon-email.e16cbdce.svg);
+  content: url(../images/icon-email.e16cbdce.svg);
   margin-right: 0.8rem;
 }
 
