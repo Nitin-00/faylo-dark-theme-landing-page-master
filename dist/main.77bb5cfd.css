@@ -14,8 +14,17 @@ body {
   text-align: center;
   line-height: 1.5;
   color: #fff;
-  background-image: url(/bg-curvy-mobile.3eef75f6.svg);
+   background-image: url(../images/bg-curvy-mobile.3eef75f6.svg);
+  background-position: 1% 5%;
+  background-repeat: no-repeat;
 }
+  @media (min-width: 500px) {
+  body {
+    background-image: url(../images/bg-curvy-desktop.b3534639.svg);
+    background-repeat: no-repeat;
+    background-position: 1% 23%;
+  }
+  }
 
 img {
   max-width: 100%;
