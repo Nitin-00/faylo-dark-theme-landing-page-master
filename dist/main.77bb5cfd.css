@@ -14,13 +14,13 @@ body {
   text-align: center;
   line-height: 1.5;
   color: #fff;
-   background-image: url(/bg-curvy-mobile.3eef75f6.svg);
+   background-image: url(bg-curvy-mobile.3eef75f6.svg);
   background-position: 1% 5%;
   background-repeat: no-repeat;
 }
   @media (min-width: 500px) {
   body {
-    background-image: url(/bg-curvy-desktop.b3534639.svg);
+    background-image: url(bg-curvy-desktop.b3534639.svg);
     background-repeat: no-repeat;
     background-position: 1% 23%;
   }
@@ -193,7 +193,7 @@ nav ul {
   padding-bottom: 0.375rem;
 }
 .how-fylo-works::after {
-  content: url(/icon-arrow.56d7c493.svg);
+  content: url(icon-arrow.56d7c493.svg);
   margin-left: 0.4rem;
   vertical-align: text-top;
 }
@@ -346,7 +346,7 @@ footer {
   margin-bottom: 1rem;
 }
 .contact-details .address::before {
-  content: url(/icon-location.fa295aa5.svg);
+  content: url(icon-location.fa295aa5.svg);
   float: left;
   margin-top: 0.2rem;
 }
@@ -358,11 +358,11 @@ footer {
   margin-bottom: 1rem;
 }
 .phone-email .phone-no::before {
-  content: url(/icon-phone.cc84a2ca.svg);
+  content: url(icon-phone.cc84a2ca.svg);
   margin-right: 0.8rem;
 }
 .phone-email .email::before {
-  content: url(/icon-email.e16cbdce.svg);
+  content: url(icon-email.e16cbdce.svg);
   margin-right: 0.8rem;
 }
 
